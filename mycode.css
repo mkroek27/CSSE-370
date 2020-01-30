@@ -1,1 +1,69 @@
-use some selecters
+
+    body{
+        background-color: lightblue;
+    }
+    
+    h1{
+        color: gray;
+        text-align: center;
+    }
+    
+    p{
+        font-family: cursive;
+        font-size: 22px;
+    }
+    
+    #para2 {
+        color: red;
+    }
+    
+    .blueclass{
+        color: blue;
+    }
+    
+div p2{
+    font-size: 20px;
+    font-style: italic;
+}
+    *{
+        text-align: center
+    }
+
+a:link {
+    color: blue;
+}
+a:visited{
+    color: purple;
+}
+#explorebtn:hover{
+    color:orange;
+}
+
+p::first-letter{
+    font-size: 50px;
+}
+
+p3,a {
+    font-family: sans-serif;
+}
+
+ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: deeppink
+    
+}
+li a {
+    display: block;
+    color: yellow;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: aqua;
+    color: greenyellow
+}

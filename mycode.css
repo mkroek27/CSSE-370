@@ -67,3 +67,8 @@ li a:hover {
     background-color: aqua;
     color: greenyellow;
 }
+
+.focus:focus {
+  background: orange;
+  color: red;
+}

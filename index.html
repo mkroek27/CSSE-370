@@ -14,12 +14,39 @@
         
 		<p>welcome to my <b>page</b> </p>
 		
-        <ul>
-            <li><a href="https://www.pbs.org/">Some</a></li>
-            <li><a href="https://abc.com/">random</a></li>
-            <li><a href="https://www.rei.com">sites</a></li>
-            <li><a href="https://www.brooksrunning.com">!!!!</a></li>
-        </ul>
+        
+        
+        <!--new side bar code -->
+        
+        <div id="mySidenav" class="sidenav">
+            
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="https://www.pbs.org/">Some</a>
+            <a href="https://abc.com/">Random</a>
+            <a href="https://www.rei.com">Sites</a>
+            <a href="https://www.brooksrunning.com">!!!!!!</a>
+            
+        </div>
+        
+        <!-- makes it so that you can use any element to open the sidenav --->
+        
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
+        <!-- hopefully fixes all of my problems -->
+        <script>
+            function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+        
+        
+        
+        
+        
+        
 		
 		<input class="red-input" value="Click me!!!"><br>
     <div>

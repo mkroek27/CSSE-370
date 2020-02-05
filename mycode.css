@@ -47,27 +47,52 @@ p3,a {
     font-family: sans-serif;
 }
 
-ul{
-    
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100px;
-    background-color: deeppink
+span {
+    top: 0;
+    left: 0;
+    position: fixed;
     
 }
 
-li a {
-    display: block;
-    color: yellow;
-    padding: 8px 16px;
+/*new side navigation menu*/
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: hotpink;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+/*the links in the sidebar*/
+.sidenav a{
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
+    font-size: 25px;
+    color: antiquewhite;
+    display: block;
+    transition: 0.3s;
 }
 
-li a:hover {
-    background-color: aqua;
-    color: greenyellow;
+/* makes it so when you move the mouse, it changes color */
+.sidenav a:hover{
+    color: plum;
 }
+
+/*close button*/
+.sidenav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
 
 .red-input:focus {
   background: yellow;

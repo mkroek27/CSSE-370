@@ -104,12 +104,24 @@ p3,a {
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
-  .sidebar {
+  .sidenav {
     width: 100%;
     height: auto;
     position: relative;
   }
-  .sidebar a {float: left;}
+   .main{
+    margin-left: 0;
+    
+    
+} 
+  .sidenav a {float: left;}
   div.content {margin-left: 0;}
+     body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
 }
 

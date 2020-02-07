@@ -47,50 +47,53 @@ p3,a {
     font-family: sans-serif;
 }
 
-span {
+/* span {
     top: 0;
     left: 0;
     position: fixed;
     
-}
+} */
 
 /*new side navigation menu*/
 .sidenav{
     height: 100%;
-    width: 0;
+    width: 20%;
     position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
+    margin: 0;
+    padding: 0;
     background-color: hotpink;
-    overflow-x: hidden;
-    padding-top: 60px;
-    transition: 0.5s;
+    overflow: auto;
+    
 }
 
 /*the links in the sidebar*/
 .sidenav a{
-    padding: 8px 8px 8px 32px;
+    padding: 8px 16px;
+    display: block;
     text-decoration: none;
     font-size: 25px;
     color: antiquewhite;
-    display: block;
-    transition: 0.3s;
+    
+   /* transition: 0.3s; */
 }
-
+.main{
+    margin-left: 20%;
+    padding: 1px 16px;
+    height: 1000px;
+    
+}
+    
 /* makes it so when you move the mouse, it changes color */
-.sidenav a:hover{
-    color: plum;
+.sidenav a:active{
+    background-color:blue;
+    color: white;
+}
+.sidenav a:hover:not(.active) {
+    background-color: plum;
+    color: white;
 }
 
-/*close button*/
-.sidenav .closebtn{
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
+
 
 
 

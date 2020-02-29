@@ -1,3 +1,27 @@
+
+PHASE #4
+    test cases
+        -add button in js
+        -make it have style
+        -make an element change text when hovered over
+        -the thing that appears with the button must dissapear when clicked
+    Notes
+        -again lots of help from w3
+        -took me a while to figure out why my js file wasnt working but it turns out i never attached it in the script section of my index file
+        -spent a really long time on getting my text to change when mouse moves over
+        -tried to do something with an event handler but after many attempts it did not work
+
+PHASE #3
+    test cases
+        -fix mobile problems
+        -media query css to push sidebar down
+        -no side scrolling
+
+    Notes
+        -lots of help from W3
+        - I used to have a responsive side bar but I had to change it into a fixed sidebar so that I could adapt it to mobile.
+
+
 PHASE #2
    test cases
     a) 10 selectors

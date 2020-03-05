@@ -1,4 +1,13 @@
 
+PHASE #5
+    test cases
+        -make webpage accessible by using ANDI
+    notes
+        -ANDI only found one issue with my "Click Me!!" Text Box, I received an error message: No Accessible Name
+        -I am going in and taking ANDI's suggestions to create a name for the box
+
+
+
 PHASE #4
     test cases
         -add button in js
@@ -16,7 +25,6 @@ PHASE #3
         -fix mobile problems
         -media query css to push sidebar down
         -no side scrolling
-
     Notes
         -lots of help from W3
         - I used to have a responsive side bar but I had to change it into a fixed sidebar so that I could adapt it to mobile.

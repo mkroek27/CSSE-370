@@ -19,7 +19,7 @@ function myMoveFunction() {
 async function getweatherAPI () { 
     document.getElementById("weather").style.visibility="visible";
    var key = '0755a348e4a02ac5bbf99d75c25fa8d8';
-      const weatherAPIurl= 'http://api.openweathermap.org/data/2.5/weather?q=Yosemite,us&appid=' + key;
+      const weatherAPIurl= 'https://api.openweathermap.org/data/2.5/weather?q=Yosemite,us&appid=' + key;
     const response = await fetch(weatherAPIurl);
     const data= await response.json();
     document.getElementById("temperature").innerHTML = (data.main.temp -273.5)*1.8 +32  + "F";

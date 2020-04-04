@@ -1,4 +1,17 @@
-
+PHASE #6
+    test cases
+        -info is pulled through api
+        -present user a choice based on the data
+        -based on choice, get addition info
+        -Present something based off answer
+    notes
+        -still learning js and html so LOTS of hiccups
+        -watched lots of videos and read MANY sites
+        -the info is pulled through open weather
+        -based on temp, user chooses to hike or not hike
+        -i then present maybe next time for NO and I put weather info or park closed if YES from national parks API
+        -used the inspect console OFTEN
+        
 PHASE #5
     test cases
         -make webpage accessible by using ANDI

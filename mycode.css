@@ -35,6 +35,13 @@ button {
     font-size: 40px;
     
 }
+#weather{
+    visibility: hidden;
+}
+img {
+    align-content: center;
+    width: 90%;
+}
     
 div p2{
     font-size: 20px;

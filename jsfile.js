@@ -54,3 +54,8 @@ async function getParkInfo() {
  function showNO(){
      document.getElementById("NO").innerHTML= "Maybe next time!";
  }
+
+
+//phase 8
+const domContainer = document.querySelector('#reacting_container');
+ReactDOM.render(e(LikeButton), domContainer);

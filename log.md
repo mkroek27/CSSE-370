@@ -1,3 +1,18 @@
+PHASE #8
+    test cases
+        -go through the steps as shown by the video and the typescript document
+    notes
+        -unfortunately, I only did half of the assignment before 5/7 and so when it came to 5/8 I was planning on completing it all. I found out that the video link had expired so then I could not watch it. I had Josh help me with the rest.8
+
+PHASE #7
+    test cases
+        -run the OWASP app through the website
+        -resolve errors
+        -submit screenshot
+    notes
+        -all my errors were unresolvable due to github
+
+
 PHASE #6
     test cases
         -info is pulled through api

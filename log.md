@@ -2,7 +2,10 @@ PHASE #8
     test cases
         -go through the steps as shown by the video and the typescript document
     notes
-        -unfortunately, I only did half of the assignment before 5/7 and so when it came to 5/8 I was planning on completing it all. I found out that the video link had expired so then I could not watch it. I had Josh help me with the rest.8
+        -unfortunately, I only did half of the assignment before 5/7/2020 and so when it came to 5/8/2020 I was planning on completing it all. I found out that the video link had expired so then I could not watch it. I had Josh help me with the rest.
+        -got the react button to work but then it started getting finicky
+        -went throught the entire webpack set up through command prompt 
+        -i wrote it all on my own and it would not work. i then compared it to josh's and it did not work, josh and I both looked through it and could not figure out where the issue was. 
 
 PHASE #7
     test cases
